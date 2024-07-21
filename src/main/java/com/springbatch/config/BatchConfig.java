@@ -73,6 +73,7 @@ public class BatchConfig {
                 .build();
     }
 
+    //Quanti parallel step possono essere eseguiti
     @Bean
     public TaskExecutor taskExecutor() {
         SimpleAsyncTaskExecutor asyncTaskExecutor = new SimpleAsyncTaskExecutor();
